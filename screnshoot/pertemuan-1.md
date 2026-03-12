@@ -1,1 +1,0 @@
-![hasil Laravel](pertemuan1.png)

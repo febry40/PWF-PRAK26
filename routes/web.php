@@ -3,7 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ProductController;
 
+Route::resource('products', ProductController::class);
 Route::get('/about', [AboutController::class, 'index']);
 
 Route::get('/dashboard', function () {
